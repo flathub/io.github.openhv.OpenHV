@@ -52,5 +52,5 @@ modules:
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: f80cb434e629f597ed29435365e902bb90b11474512fcce10542ff0e43efb8b5
+        sha256: 524dcdd753c5c4f8db94d970a86c43d9f27e851019e2c12de2eef2cc44892733
       - openra-nuget.json
