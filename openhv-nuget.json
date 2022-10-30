@@ -15,24 +15,24 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.2.2/linguini.bundle.0.2.2.nupkg",
-        "sha512": "b1f14730c28a04f2b13f854963f37d2b30651f6274e64dca1ee670db86989da7b29a6bd982cdceb75d22b844ed9e899276a0e3296d5151e9823554f98605cc52",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.3.1/linguini.bundle.0.3.1.nupkg",
+        "sha512": "aca99c2238976735427155b559572a4c67b28e5a64a079dedd468176f3667925772d278b576a256cb05d941d9228fcd7df33686b31d4d06c9ff7f89b677a7794",
         "dest": "nuget-sources",
-        "dest-filename": "linguini.bundle.0.2.2.nupkg"
+        "dest-filename": "linguini.bundle.0.3.1.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.2.1/linguini.shared.0.2.1.nupkg",
-        "sha512": "be8ac2f99fbf8a5ca826243370c53c6d1956f4f3b01edc94c14ef1dbc62daec576a8a1739d01cf112a53fa196fb7f78fc01ec6a1cca137946ff21aa70af6cad8",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.3.0/linguini.shared.0.3.0.nupkg",
+        "sha512": "795db6a47a27ba57bbff38c917a9a18470ba435c943cc70103059ab74de074b496c5093aaaac56979dedadd9b69137af1ea33d5eab8b7dd168730019689d9a2f",
         "dest": "nuget-sources",
-        "dest-filename": "linguini.shared.0.2.1.nupkg"
+        "dest-filename": "linguini.shared.0.3.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.2.2/linguini.syntax.0.2.2.nupkg",
-        "sha512": "10ff09f7a02957cac166fb69d7e2bf86f50b9e026e52ff119a45aaad3e6ce41578c09954303fe0595596eb58a7f455e43130de6ea943e1bf3175700d5df5cd5b",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.3.0/linguini.syntax.0.3.0.nupkg",
+        "sha512": "6f247c1fc9ae8418e1cde63ddf7c23b474e977d089d4e23500d9c84a225b8332e539eea05b1e5df7594a89ee3529551cf644bb3ea71827174d9bc2598df96949",
         "dest": "nuget-sources",
-        "dest-filename": "linguini.syntax.0.2.2.nupkg"
+        "dest-filename": "linguini.syntax.0.3.0.nupkg"
     },
     {
         "type": "file",
