@@ -39,18 +39,18 @@ modules:
       - dotnet-nuget.json
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        #tag: 20220918 TODO
-        commit: 4c349f53dfb604473f63cf13a05ec328e1d733ab
+        tag: 20221030
+        commit: 1a0f3a70b18e1294ad89e69bb717c67e73f03e42
       - openhv-nuget.json
       - type: git
         url: https://github.com/OpenRA/OpenRA
-        commit: 3f106bef72dc60a99d268eb864903a63fa2be684
+        commit: 111d9e4230978a72d2364e60236d7629080c633f
         dest: engine
       - type: shell
         commands:
-          - cd engine && make version VERSION=3f106bef72dc60a99d268eb864903a63fa2be684
+          - cd engine && make version VERSION=111d9e4230978a72d2364e60236d7629080c633f
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: 524dcdd753c5c4f8db94d970a86c43d9f27e851019e2c12de2eef2cc44892733
+        sha256: 262e2bea3d9216c8d2c0f93a8abf2def5c237d6bc267889f9b459dd86dcddd04
       - openra-nuget.json
