@@ -31,7 +31,7 @@ modules:
           env:
             RUNTIME: linux-arm64
     build-commands:
-      - make version VERSION=20221030 # TODO: remove VERSION
+      - make version
       - cd engine && dotnet publish --source ./nuget-sources -c Release -p:TargetPlatform=unix-generic -p:CopyGenericLauncher=TRUE -p:CopyCncDll=FALSE -p:CopyD2kDll=FALSE -o ${FLATPAK_DEST}/lib/openhv --runtime $RUNTIME --self-contained true
       - mkdir bin && cd engine && ./configure-system-libraries.sh && mv bin/*.so /app/lib/openhv/ # TODO: this shouldn't be necessary
       - dotnet publish --source ./nuget-sources -c Release -o ${FLATPAK_DEST}/lib/openhv --self-contained true
@@ -40,18 +40,19 @@ modules:
       - dotnet-nuget.json
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: 20221030
-        commit: 1a0f3a70b18e1294ad89e69bb717c67e73f03e42
+        tag: 20221119
+        commit: 5bf89947276276a84f222d4a57610d4e8c8153b2
       - openhv-nuget.json
       - type: git
         url: https://github.com/OpenRA/OpenRA
-        commit: 111d9e4230978a72d2364e60236d7629080c633f
+        tag: playtest-20221119
+        commit: 22a42b7dc9f55c515d01109a3b5df18380f6e4b3
         dest: engine
       - type: shell
         commands:
-          - cd engine && make version VERSION=111d9e4230978a72d2364e60236d7629080c633f
+          - cd engine && make version VERSION=22a42b7dc9f55c515d01109a3b5df18380f6e4b3
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: 262e2bea3d9216c8d2c0f93a8abf2def5c237d6bc267889f9b459dd86dcddd04
+        sha256: 81f34f9b0689575ea418ccdb3e1483fec8116760a49faf01eddb57d4ed217a72
       - openra-nuget.json
