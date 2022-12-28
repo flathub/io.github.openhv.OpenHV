@@ -127,10 +127,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/openra-eluant/1.0.18/openra-eluant.1.0.18.nupkg",
-        "sha512": "ec034f0eec64780dcd655709b109e228113cbefcb0a94492b085a3b528e53242c473c79d172e1c72c84f16cb7e27d21c9c2bd4db4faf076f5a11eb47c6aae5fe",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-eluant/1.0.19/openra-eluant.1.0.19.nupkg",
+        "sha512": "a76239cb9be9338f1d5f16731647e5c897e27ade71ebdabcd944efc72b87aa6ea391dbe8a248a6254733c9962af57071f894b03b2e53d14fc901a2304bc01d5f",
         "dest": "nuget-sources",
-        "dest-filename": "openra-eluant.1.0.18.nupkg"
+        "dest-filename": "openra-eluant.1.0.19.nupkg"
     },
     {
         "type": "file",
