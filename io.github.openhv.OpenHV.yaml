@@ -40,13 +40,13 @@ modules:
       - dotnet-nuget.json
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: 20230212
+        tag: 20230305
         commit: 10152f22f112c9227f4924a4cfd19e3a7a83001b
       - openhv-nuget.json
       - type: git
         url: https://github.com/OpenRA/OpenRA
-        tag: playtest-20230110
-        commit: d5dd6a908621bf48d1e84e0c595b109d64e12bb8
+        tag: release-20230225
+        commit: 17a2c6a3832221982c7a4b4f3f4b934d850d32ad
         dest: engine
       - type: shell
         commands:
