@@ -141,10 +141,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/openra-openal-cs/1.0.21/openra-openal-cs.1.0.21.nupkg",
-        "sha512": "410bd808d776679fec86903d9c54285b2c1482305d094806486f38a4704ec89d09eb4ebf945c320677fb372ffb4e6dd878c375287be3ea4b87c315dac403d04f",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-openal-cs/1.0.22/openra-openal-cs.1.0.22.nupkg",
+        "sha512": "6a0ee8ce5fd894581420f218ee1902feced0ed1da69f8e4043f19fa2d6a9be0b29ffe396f8316ce8b94f92dda644f8a06cc9c1f786590ad0f4979cb54b743a94",
         "dest": "engine/nuget-sources",
-        "dest-filename": "openra-openal-cs.1.0.21.nupkg"
+        "dest-filename": "openra-openal-cs.1.0.22.nupkg"
     },
     {
         "type": "file",
