@@ -1,31 +1,31 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/discordrichpresence/1.1.3.18/discordrichpresence.1.1.3.18.nupkg",
-        "sha512": "5fac6c07258c494fdb2f50e1c56ce3d4a4c8a76668be562fcd1858bd49678b581e419bbf4d9391baea9163827f99b32a21baa2bd78cd92a735af21a6add14e63",
+        "url": "https://api.nuget.org/v3-flatcontainer/discordrichpresence/1.2.1.24/discordrichpresence.1.2.1.24.nupkg",
+        "sha512": "6aaa67d7a7ff242cb4ad2660ff983fe7da4e48f4e4372dde26f5f24983752b123d1d8bb2baa881ed3dd26bdc52f50f756140ab8a7c0260d9320bd2f2bc3c68ae",
         "dest": "engine/nuget-sources",
-        "dest-filename": "discordrichpresence.1.1.3.18.nupkg"
+        "dest-filename": "discordrichpresence.1.2.1.24.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.5.0/linguini.bundle.0.5.0.nupkg",
-        "sha512": "ecff66fcfb8b8427477e3c64d9fbc6fa94fce2e6752c3aace2b7b682a9477b34dca560a23a36904372e5567a9f9328cb27b1cb34b2d313b3fd634b86de542d0b",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.6.0/linguini.bundle.0.6.0.nupkg",
+        "sha512": "5972c5a94c9d048afe8308fe090d1afa997adddde155239cd7a3be80fe76dfc6f8f978168fb597479dfb6de65149851271e3768dd0574317a867a81e8de27c4e",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.bundle.0.5.0.nupkg"
+        "dest-filename": "linguini.bundle.0.6.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.5.0/linguini.shared.0.5.0.nupkg",
-        "sha512": "4c1f736b8f252aa34c961acac9dac7b0cd7313c0bf545efe78599c54adc3aec918cfa84e9fb5345a68d85cf19b53b3bc359e0a4df675928632a91be64013f580",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.6.0/linguini.shared.0.6.0.nupkg",
+        "sha512": "52cd737da69a3cf8fff5d4afce7a4397a6e4de4cfa585d04a17ab8a9057266aae7c32239851a8d3b36cb6e32aeadc83099a48454eb8527f1fd3123f35918fe51",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.shared.0.5.0.nupkg"
+        "dest-filename": "linguini.shared.0.6.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.5.0/linguini.syntax.0.5.0.nupkg",
-        "sha512": "5b02eccbc6dc7775727574fcaf2873c1ef8eaea40dc8ce7599809412c479c5951ff375c06aab1d204336481add5b2c0969294c0a7007db0d83925e27aec52520",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.6.0/linguini.syntax.0.6.0.nupkg",
+        "sha512": "254ea09be7b2544abf2667888e13433700186599da9377688cec0fbd4fcd3a639db22970f7327ec398beeb7e0a0d9b266d2224aa94e3ed0e521d82733fb5d1a4",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.syntax.0.5.0.nupkg"
+        "dest-filename": "linguini.syntax.0.6.0.nupkg"
     },
     {
         "type": "file",
@@ -120,10 +120,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/openra-eluant/1.0.21/openra-eluant.1.0.21.nupkg",
-        "sha512": "0f48c8cd2f405e7858b3ec86ff175a8d9a44be75c4595dd47f77ad0a56fd5e61cf8d5bc0378e1fa45c0bea2186f2ee1753da78dd7bcb0213a850624c6617bf28",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-eluant/1.0.22/openra-eluant.1.0.22.nupkg",
+        "sha512": "127111d51e8e09fea1c6e4631270a2b23e1ab438a9cb892c6bf0d386a32ee5fa2df3eee5d0814b58c317b8668aecfbf1573a8947659d96a4e98e7890b06988d4",
         "dest": "engine/nuget-sources",
-        "dest-filename": "openra-eluant.1.0.21.nupkg"
+        "dest-filename": "openra-eluant.1.0.22.nupkg"
     },
     {
         "type": "file",
@@ -607,5 +607,12 @@
         "sha512": "9be37f6431f6ead36babe78dc6527340d7b4b0fe444736aaeae5aef3651191d4e0421d9d671106aea544888695d7841000fb12f8a44aab1b5fe93fb7c90d983f",
         "dest": "engine/nuget-sources",
         "dest-filename": "taglibsharp.2.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/roslynator.analyzers/4.2.0/roslynator.analyzers.4.2.0.nupkg",
+        "sha512": "06d1b94a65fd474e8afff1bf71ed9d848a2405e86bf4eee9a33656866723f037cfe936862f3ef3c4c21fa43edea8e1420f270cf701468ade7ce80a56b26510a8",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "roslynator.analyzers.4.2.0.nupkg"
     }
 ]
