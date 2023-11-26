@@ -23,3 +23,16 @@ flatpak-builder --user --install --force-clean build-dir io.github.openhv.OpenHV
 ```
 flatpak run io.github.openhv.OpenHV
 ```
+
+## Install
+To install a stable release version from the repository use the following:
+```
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub io.github.openhv.OpenHV
+```
+
+To install from the pre-release branch, use the following:
+```
+flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak install flathub-beta io.github.openhv.OpenHV
+```
