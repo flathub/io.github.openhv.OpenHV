@@ -1,6 +1,6 @@
 app-id: io.github.openhv.OpenHV
 runtime: org.freedesktop.Platform
-runtime-version: 22.08
+runtime-version: 23.08
 sdk: org.freedesktop.Sdk
 command: openhv
 rename-desktop-file: openhv.desktop
@@ -40,16 +40,16 @@ modules:
       - dotnet-nuget.json
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: 20230820
-        commit: a4083357f174d05532ea6f05aa6c486764e3d110
+        tag: 20231125
+        commit: 966bf0f8370b5d690863706dc58994ed773157f6
       - openhv-nuget.json
       - type: git
         url: https://github.com/OpenRA/OpenRA
-        commit: 5ce559c853679fdbe61c82aa0edd104b1f79abb1
+        commit: ff49411bc10224a33ad6544839d06c51acc9faf6
         dest: engine
       - type: shell
         commands:
-          - cd engine && make version VERSION=5ce559c853679fdbe61c82aa0edd104b1f79abb1
+          - cd engine && make version VERSION=ff49411bc10224a33ad6544839d06c51acc9faf6
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
