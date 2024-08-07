@@ -1,6 +1,13 @@
 [
     {
         "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/roslynator.formatting.analyzers/4.2.0/roslynator.formatting.analyzers.4.2.0.nupkg",
+        "sha512": "cd2400f20b2fd35bb0ca9e147c0737b6078760232d36b7db5680c102f27f037cb9982aa19465996880789fdb0838b8458187c0993082fb00748a8006cf8619f3",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "roslynator.formatting.analyzers.4.2.0.nupkg"
+    },
+    {
+        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/discordrichpresence/1.2.1.24/discordrichpresence.1.2.1.24.nupkg",
         "sha512": "6aaa67d7a7ff242cb4ad2660ff983fe7da4e48f4e4372dde26f5f24983752b123d1d8bb2baa881ed3dd26bdc52f50f756140ab8a7c0260d9320bd2f2bc3c68ae",
         "dest": "engine/nuget-sources",
@@ -8,24 +15,24 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.6.0/linguini.bundle.0.6.0.nupkg",
-        "sha512": "5972c5a94c9d048afe8308fe090d1afa997adddde155239cd7a3be80fe76dfc6f8f978168fb597479dfb6de65149851271e3768dd0574317a867a81e8de27c4e",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.8.1/linguini.bundle.0.8.1.nupkg",
+        "sha512": "b93e6ac897700383a587a2d86d40edb4a431b081ddfba61116fa5a0d77dfb6d71577ca95e1440bae325a6e1264e65357b17a5c5ff1e96ab4ce1bc780b7beec94",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.bundle.0.6.0.nupkg"
+        "dest-filename": "linguini.bundle.0.8.1.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.6.0/linguini.shared.0.6.0.nupkg",
-        "sha512": "52cd737da69a3cf8fff5d4afce7a4397a6e4de4cfa585d04a17ab8a9057266aae7c32239851a8d3b36cb6e32aeadc83099a48454eb8527f1fd3123f35918fe51",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.8.0/linguini.shared.0.8.0.nupkg",
+        "sha512": "04b497f428dbfbeeccc44bf1c083049108a2cdc6bb3a78e1e1e7cf85ac0aa70e3199aafae6d056ff36d6918cea74d77be6aeb6c798503428bb54e562e31dc740",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.shared.0.6.0.nupkg"
+        "dest-filename": "linguini.shared.0.8.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.6.0/linguini.syntax.0.6.0.nupkg",
-        "sha512": "254ea09be7b2544abf2667888e13433700186599da9377688cec0fbd4fcd3a639db22970f7327ec398beeb7e0a0d9b266d2224aa94e3ed0e521d82733fb5d1a4",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.8.0/linguini.syntax.0.8.0.nupkg",
+        "sha512": "3389250ed36ed27516e56fb4eff2618da52533e69d4cf7bc634c23e956adc0a639f5eceeba8908defee2e1cc873accfba0bd7781fdb47e3d47be0dbcf09700e2",
         "dest": "engine/nuget-sources",
-        "dest-filename": "linguini.syntax.0.6.0.nupkg"
+        "dest-filename": "linguini.syntax.0.8.0.nupkg"
     },
     {
         "type": "file",
