@@ -23,6 +23,9 @@ modules:
     build-options:
       append-path: /usr/lib/sdk/dotnet6/bin
       append-ld-library-path: /usr/lib/sdk/dotnet6/lib
+      env:
+        - DOTNET_CLI_TELEMETRY_OPTOUT=true
+        - DOTNET_NOLOGO=true
       arch:
         x86_64:
           env:
