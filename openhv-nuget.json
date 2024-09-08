@@ -148,10 +148,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/pfim/0.11.2/pfim.0.11.2.nupkg",
-        "sha512": "2876757f768d9e37979a24b6a22737983ddaf8600bdbd388d416b39a59b4d57ab6254c78649b8e5acba652890888f03860b3d63c022322dad245590dcb333f65",
+        "url": "https://api.nuget.org/v3-flatcontainer/pfim/0.11.3/pfim.0.11.3.nupkg",
+        "sha512": "dcef79d47a47e30611fedf59e08fffe544c0b221ecdcb69f260e66cb3230befde6ca3c2dfa0db5a7bdb47481e66c4865d1fa3811f55037f905aa6fb8852dd70d",
         "dest": "nuget-sources",
-        "dest-filename": "pfim.0.11.2.nupkg"
+        "dest-filename": "pfim.0.11.3.nupkg"
     },
     {
         "type": "file",
