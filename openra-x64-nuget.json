@@ -1,0 +1,387 @@
+[
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/discordrichpresence/1.2.1.24/discordrichpresence.1.2.1.24.nupkg",
+        "sha512": "6aaa67d7a7ff242cb4ad2660ff983fe7da4e48f4e4372dde26f5f24983752b123d1d8bb2baa881ed3dd26bdc52f50f756140ab8a7c0260d9320bd2f2bc3c68ae",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "discordrichpresence.1.2.1.24.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.bundle/0.8.1/linguini.bundle.0.8.1.nupkg",
+        "sha512": "b93e6ac897700383a587a2d86d40edb4a431b081ddfba61116fa5a0d77dfb6d71577ca95e1440bae325a6e1264e65357b17a5c5ff1e96ab4ce1bc780b7beec94",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "linguini.bundle.0.8.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.shared/0.8.0/linguini.shared.0.8.0.nupkg",
+        "sha512": "04b497f428dbfbeeccc44bf1c083049108a2cdc6bb3a78e1e1e7cf85ac0aa70e3199aafae6d056ff36d6918cea74d77be6aeb6c798503428bb54e562e31dc740",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "linguini.shared.0.8.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/linguini.syntax/0.8.0/linguini.syntax.0.8.0.nupkg",
+        "sha512": "3389250ed36ed27516e56fb4eff2618da52533e69d4cf7bc634c23e956adc0a639f5eceeba8908defee2e1cc873accfba0bd7781fdb47e3d47be0dbcf09700e2",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "linguini.syntax.0.8.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/6.0.36/microsoft.aspnetcore.app.runtime.linux-x64.6.0.36.nupkg",
+        "sha512": "73fac2cef1cf210ec4b3d6040928ac497012ebb4be4f9056a7c020c121b1c29120afbcf799285b84a36c32d584f85ea4c67708c33c82140bdd28a579cee1a83b",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.6.0.36.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/6.0.2/microsoft.extensions.dependencymodel.6.0.2.nupkg",
+        "sha512": "5f91d917e60b639a0f44ffebabe197b21187d3a0c4f78d9c6a6c3a20a14693c2fab95611184ef8f6c5c09bfbc0207be55335aab6b8966615936eec967160ffd3",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.extensions.dependencymodel.6.0.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/6.0.36/microsoft.netcore.app.runtime.linux-x64.6.0.36.nupkg",
+        "sha512": "40e06eef82c034aae381023a34c4921d992e9e0cc65beefdb65392bf4e07b8692986a09fdf7d2931e085bd09fb53f8be7a04a1aa91556621590eece84e708d8e",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.netcore.app.runtime.linux-x64.6.0.36.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg",
+        "sha512": "6bf892c274596fe2c7164e3d8503b24e187f64d0b7bec6d9b05eb95f04086fceb7a85ea6b2685d42dc465c52f6f0e6f636c0b3fddac48f6f0125dfd83e92d106",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.netcore.platforms.1.1.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg",
+        "sha512": "8493fe11648c7ecc20b6530490d30fd63744961345c0501a7a10b11046661da09b783ddceb8b3208ae52a72a8a94cafdce8dc1bd6073c32081e30d0e7407f174",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.netcore.platforms.5.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg",
+        "sha512": "1ef033a68688aab9997ec1c0378acb1638b4afb618e533fcaf749d93389737ba94f4a0a94481becdf701c7e988ae2fe390136a8eae225887ee60db45063490fe",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.netcore.targets.1.1.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg",
+        "sha512": "471e66567ce59cc86475aece7815d05261264ce114e0c1688ba2551dd51494901fa72dd7a8f74f8e8f0f3dba74af8595f177552f3c06abb4bfce76692197076e",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "microsoft.win32.registry.5.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/mono.nat/3.0.4/mono.nat.3.0.4.nupkg",
+        "sha512": "b2909720dc40cd459741e4ad9af16cf8289dd43f5fe1f90a28f26937da8d8ec4621d3b296019a94bfe5c871ef12b41f49dc85c415e656d5376a3b1fa48d63973",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "mono.nat.3.0.4.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/mp3sharp/1.0.5/mp3sharp.1.0.5.nupkg",
+        "sha512": "1541e2272451d6352d77d1a75871b899b5c74e17b61aff4afc02bbe8cc50f18744a44745b7cc9382c06f660ffc1152788219e613cf29f704f8acf3bb48e19df9",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "mp3sharp.1.0.5.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg",
+        "sha512": "83731b662eaf05379a23f8446ef47bbc111349dd4358b7bd8b51383fe9cf637e2fe62f78cea52a0d7bdd582dc6fbbb5837d4a7b1d53dcf37a0ae7473e21ee7b1",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "newtonsoft.json.13.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/nuget.commandline/6.12.1/nuget.commandline.6.12.1.nupkg",
+        "sha512": "518a52da900ebad9e8dfb2f644981d6da4881c337dbb216ef1a692d60988a5fcfc340cfbcacaf2420e04fe1e71bc0bc886955569c299eacdc2fb3aa63a8973c2",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "nuget.commandline.6.12.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/nvorbis/0.10.5/nvorbis.0.10.5.nupkg",
+        "sha512": "385aa2bb177f9ba834ffe4cc6aeac1ef226f56ec76c3a5be4560697e08233800a6fbd623e724203f4f4fd124f9adb04e0a781ce83ef39b56fde22197e4b6cf7a",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "nvorbis.0.10.5.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-eluant/1.0.22/openra-eluant.1.0.22.nupkg",
+        "sha512": "127111d51e8e09fea1c6e4631270a2b23e1ab438a9cb892c6bf0d386a32ee5fa2df3eee5d0814b58c317b8668aecfbf1573a8947659d96a4e98e7890b06988d4",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "openra-eluant.1.0.22.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-freetype6/1.0.11/openra-freetype6.1.0.11.nupkg",
+        "sha512": "f1f1989ac7159d395d2ff693aaaaae56c7cd4f0f6785171c93fd458eb0c4d24552939ddf2704775c3eedd1507e7071e329d59ce842fda3c2c6426179f52c3ec6",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "openra-freetype6.1.0.11.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-fuzzylogiclibrary/1.0.1/openra-fuzzylogiclibrary.1.0.1.nupkg",
+        "sha512": "51e684792feb15f348c83d0df5ff863b48a8c2d92d5e9f2618449b59118af489bcf00134cdcba0c641d127aa8af9a7454305a0d0c5c33b05c1b7c52aa17af3ed",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "openra-fuzzylogiclibrary.1.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-openal-cs/1.0.22/openra-openal-cs.1.0.22.nupkg",
+        "sha512": "6a0ee8ce5fd894581420f218ee1902feced0ed1da69f8e4043f19fa2d6a9be0b29ffe396f8316ce8b94f92dda644f8a06cc9c1f786590ad0f4979cb54b743a94",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "openra-openal-cs.1.0.22.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/openra-sdl2-cs/1.0.41/openra-sdl2-cs.1.0.41.nupkg",
+        "sha512": "62bcaf4cf9ffb1bd6171449e8d6103ad5a8aa976a1d80427031ce5f6920a8fc34c382a762b36676c7bd5c1dccdbb9500c4c7f7c885876a27bb59e5a0db929321",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "openra-sdl2-cs.1.0.41.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/pfim/0.11.3/pfim.0.11.3.nupkg",
+        "sha512": "dcef79d47a47e30611fedf59e08fffe544c0b221ecdcb69f260e66cb3230befde6ca3c2dfa0db5a7bdb47481e66c4865d1fa3811f55037f905aa6fb8852dd70d",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "pfim.0.11.3.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/rix0rrr.beaconlib/1.0.2/rix0rrr.beaconlib.1.0.2.nupkg",
+        "sha512": "d4f1104c1f76c082365c57f6b4182ec0b8f7f9a4e825d1c99ecee068cffb1f40396689e0c652b40d92bc21d355e1e7e63a58d8203e2efafba84a2668d7412641",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "rix0rrr.beaconlib.1.0.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/roslynator.analyzers/4.2.0/roslynator.analyzers.4.2.0.nupkg",
+        "sha512": "06d1b94a65fd474e8afff1bf71ed9d848a2405e86bf4eee9a33656866723f037cfe936862f3ef3c4c21fa43edea8e1420f270cf701468ade7ce80a56b26510a8",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "roslynator.analyzers.4.2.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/roslynator.formatting.analyzers/4.2.0/roslynator.formatting.analyzers.4.2.0.nupkg",
+        "sha512": "cd2400f20b2fd35bb0ca9e147c0737b6078760232d36b7db5680c102f27f037cb9982aa19465996880789fdb0838b8458187c0993082fb00748a8006cf8619f3",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "roslynator.formatting.analyzers.4.2.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.io/4.3.0/runtime.any.system.io.4.3.0.nupkg",
+        "sha512": "7e0d4a238322d434a19afc79ea988d3727c1687fdd5bcd1c4c39cb6201073caabb924cc201c70545d60acf8b94cde8b783d0c268743e040c357d100677e4c5ed",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.io.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.reflection/4.3.0/runtime.any.system.reflection.4.3.0.nupkg",
+        "sha512": "293d3dd8be87e1c5cd76ece4ed64ebb5ae6b50be95a39bee401eeed64355e34641905f8c14392fbc3acf8609f5d6fca731f39ce7607962eb5951f09516480015",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.reflection.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.reflection.primitives/4.3.0/runtime.any.system.reflection.primitives.4.3.0.nupkg",
+        "sha512": "a2f374276290ad9b799d3e49cd8fe7839c07b52f22894bcd77b9470841564319fb2ebbd7503e76feef42db4e8a362af8648cf0842a1cb0b5d9a60a58ef8b205e",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.reflection.primitives.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.runtime/4.3.0/runtime.any.system.runtime.4.3.0.nupkg",
+        "sha512": "bfee3c68312296860e5459af5e770c2e9fcd4ac134361fd569a9ce1e6574b9ae3978aad403f89639a4b5bac8ee5bb0ee1b8edb819e9a60f13ca5bd1812889bbd",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.runtime.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.text.encoding/4.3.0/runtime.any.system.text.encoding.4.3.0.nupkg",
+        "sha512": "cbe6df98acd50e2251d3343620c408af56cfe7c1979277a8ec65b5eef093e93ed93c05980902a7152ed83302d5a625d7058921baa7f446c5e67194fa4c06f20a",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.text.encoding.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.any.system.threading.tasks/4.3.0/runtime.any.system.threading.tasks.4.3.0.nupkg",
+        "sha512": "5f37a56f5d6c7fc198c7ef76b822b85284f9d7d1c06583c26a698793ade65da1b273d5fb03c20be1eb91a9c835f7122ad2775f4e51dffb2758fabac2a30f8c23",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.any.system.threading.tasks.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg",
+        "sha512": "299c5a96fffdcaf1972e3e3d1c727837d18ac9e88cb79c09914f12ff1de7280dff10c9232a49a1c1d3ba7785a5cf76f28c9dce414f0a2a567688de7fd5331dc8",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.native.system.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/runtime.unix.system.private.uri/4.3.0/runtime.unix.system.private.uri.4.3.0.nupkg",
+        "sha512": "203ebe272791d79ab0c40afe9d0543852ee91b9fb4ae5bc15524d97728bc8bc9d7e0cbcf65d1fab8cfb0aa7a4ae37e7938933eef127aa5ea46f60e57b6ad2d91",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "runtime.unix.system.private.uri.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/sharpziplib/1.4.2/sharpziplib.1.4.2.nupkg",
+        "sha512": "4e080196e9b20427d1b5abe23943d647c365611247cf571d3cf2575808be7294b9957050aed57fa34326ef8965bbb314e03944693216502d0eb990253dfc94f4",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "sharpziplib.1.4.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/stylecop.analyzers/1.2.0-beta.435/stylecop.analyzers.1.2.0-beta.435.nupkg",
+        "sha512": "2ede8d9352a51861a5b2550010ff55da8241381a6fa6cc49e025f1c289b230b8c0177e93850de4ea8b6f702c1f2d50d81a9f4d890ca9441c257b614f2a5e05dd",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "stylecop.analyzers.1.2.0-beta.435.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/stylecop.analyzers.unstable/1.2.0.435/stylecop.analyzers.unstable.1.2.0.435.nupkg",
+        "sha512": "f51e39a1821df5aa9f0e80f90ecd287991850baafa49e8ef5ac45a32c36b48a0c93ec3012c575ed7ad25ec867a51ce31f189dfaf2bcd8214c1626a5fea1e58b8",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "stylecop.analyzers.unstable.1.2.0.435.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg",
+        "sha512": "80da6158e55b9bcf7e0b5e6379b9cf45a632914f037b53c5bf5609576e3cd7821f7861956b73d74470d2d0c2e56dd235a5ef4ca6ffe7e192b820dc2d023aaff2",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.buffers.4.5.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.io/4.3.0/system.io.4.3.0.nupkg",
+        "sha512": "bfca5a21e3e1986b9765b13dc6fbcd6f8b89e4c1383855d1d7ef256bf1bf2f51889769db5365859dd7606fbf6454add4daeb3bab56994ffb98fd1d03fe8bc1e6",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.io.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg",
+        "sha512": "70fce15a52cc76aacbae05c8e89e2e398d1d32903f63f640a7dd4a3e5747f2c7a887d4bfd22f2a2e40274906cf91648dfd169734fb7c74eb9b4f72614084e1db",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.memory.4.5.3.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
+        "sha512": "8ece5491eb0fe332bc190f40cf76b3beee0c5f996325034861be221fdb0ff02fd59e4f7020b3c4a1f29a457f76ff76c4c95d46d38555e4f48c7a3bf172d87966",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.memory.4.5.4.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.private.uri/4.3.0/system.private.uri.4.3.0.nupkg",
+        "sha512": "5989a57ef273b689a663e961a0fe09d9b1d88438e5478358efc4b165de3b2674fa9579c301ce12d2d2fa5f33295f2acb42eceea2ebebf70c733da6364ceaf94d",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.private.uri.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.reflection/4.3.0/system.reflection.4.3.0.nupkg",
+        "sha512": "2325b67ed60dce0302807064f25422cbe1b7fb275b539b44fba3c4a8ce4926f21d78529a5c34b31c03d80d110f7bace9af9589d457266beac014220057af8333",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.reflection.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg",
+        "sha512": "d4b9cc905f5a5cab900206338e889068bf66c18ee863a29d68eff3cde2ccca734112a2a851f2e2e5388a21ec28005fa19317c64d9b23923b05d6344be2e49eaa",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.reflection.primitives.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime/4.3.0/system.runtime.4.3.0.nupkg",
+        "sha512": "92ab2249f08073cfafdc4cfbd7db36d651ad871b8d8ba961006982187de374bf4a30af93f15f73b05af343f7a70cbd484b04d646570587636ae72171eb0714fb",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.runtime.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg",
+        "sha512": "d4057301be4ec4936f24b9ce003b5ec4d99681ab6d9b65d5393dd38d04cdec37784aaa12c1a8b50ac3767ed878dae425749490773fec01e734f93cf1045822b3",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.runtime.compilerservices.unsafe.6.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.loader/4.3.0/system.runtime.loader.4.3.0.nupkg",
+        "sha512": "1ba5a6bc023dc8e122e46396b594f7fa92561d719a6ade7da99290ed9ef97c6a5a72594f98b8b334566f6578f70b2b12c8c91006c9b9d1bf714ccff1f4bdf209",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.runtime.loader.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg",
+        "sha512": "ae6b03ad029d3eb6818a6c8bb56cf4904013fa535a67b8e621b783a029dd88aa2e471e002cbc7d720381ad8bc8c6b93111a08f6ce2d271af6d974bf4d02b6c81",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.security.accesscontrol.5.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg",
+        "sha512": "44a920aaaf22b2172d41319bb57ab2b8e1a4531d5f02192a6f53a81d875125195b60ba0b5a44a45981d137fd7b0f3a65b12959b5fd97afc0578cd84ef27467cd",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.security.principal.windows.5.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg",
+        "sha512": "6ff7feec7313a7121f795ec7d376e4b8728c17294219fafdfd4ea078f9df1455b4685f0b3962c3810098e95d68594a8392c0b799d36ec8284cd6fcbd4cfe2c67",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.text.encoding.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/6.0.1/system.text.encodings.web.6.0.1.nupkg",
+        "sha512": "318f12b8f5385b116b8c33d725cbbd089c32121d032a80dae01e6bad5c05464aaeabf5c66b4f90efc9c86356afeabf29e66802d12bd9d2438fdceab38e7f8b27",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.text.encodings.web.6.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.text.json/6.0.11/system.text.json.6.0.11.nupkg",
+        "sha512": "0c589df34f8066b14c29cc9520404f033edda8a5a2a0e7ee00702d85428fbe1ebef9eac34d789d42820630724ab0cb60bcd0acc73c1cea827b68ad9fb2abb087",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.text.json.6.0.11.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg",
+        "sha512": "32adff895c57ab9ef864cf89660403f041b07841be7c44a0c3c2c8451a1da076a8c1b4dcf1c993b585304ad7549afa408a0f797ad6814d0f14eb748a1fc9ce03",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.threading.channels.6.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg",
+        "sha512": "7d488ff82cb20a3b3cef6380f2dae5ea9f7baa66bf75ad711aade1e3301b25993ccf2694e33c847ea5b9bdb90ff34c46fcd8a6ba7d6f95605ba0c124ed7c5d13",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.threading.tasks.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg",
+        "sha512": "fa00ebb5045d12c51274f64411c551981beceb1266a8606a4731063109b95ea1f15939197bf3d2ba899db61e593dc39bfce876908bba34286823525093ae3d8e",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "system.valuetuple.4.5.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/taglibsharp/2.3.0/taglibsharp.2.3.0.nupkg",
+        "sha512": "9be37f6431f6ead36babe78dc6527340d7b4b0fe444736aaeae5aef3651191d4e0421d9d671106aea544888695d7841000fb12f8a44aab1b5fe93fb7c90d983f",
+        "dest": "engine/nuget-sources",
+        "dest-filename": "taglibsharp.2.3.0.nupkg"
+    }
+]
