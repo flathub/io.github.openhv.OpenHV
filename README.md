@@ -23,3 +23,10 @@ flatpak-builder --user --install --force-clean build-dir io.github.openhv.OpenHV
 ```
 flatpak run io.github.openhv.OpenHV
 ```
+
+## Update
+
+To update the referenced NuGet dependencies run
+```
+./regenerate-nuget.sh
+```
