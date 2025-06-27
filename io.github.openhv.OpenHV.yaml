@@ -43,7 +43,6 @@ modules:
       - type: git
         url: https://github.com/OpenRA/OpenRA
         tag: release-20250330
-        commit: b4f3d8ae02b6bd6f4a3a5441e6d0daf7c5073787
         dest: engine
       - type: shell
         commands:
@@ -51,14 +50,13 @@ modules:
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: 933fa90c9f2f44a903f92fc8a54c86082a1f1fd2623d1159455ea56a9ba09132
+        sha256: 68b189a572b10e02f69e2f852b56b19f3b90b3c438fd18b6dbb68f258a8691d4
       - openra-x64-nuget.json
       - openra-arm64-nuget.json
 
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: '20250413'
-        commit: df278bd7c36542e8b108d475b3d54b4498673874
+        tag: '20250627'
       - type: shell
         commands:
           - make version
