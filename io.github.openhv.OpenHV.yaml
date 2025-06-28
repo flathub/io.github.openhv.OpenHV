@@ -56,7 +56,7 @@ modules:
 
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: '20250627'
+        tag: '20250628'
       - type: shell
         commands:
           - make version
