@@ -1,6 +1,6 @@
 app-id: io.github.openhv.OpenHV
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: openhv
 rename-desktop-file: openhv.desktop
@@ -50,7 +50,7 @@ modules:
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: 68b189a572b10e02f69e2f852b56b19f3b90b3c438fd18b6dbb68f258a8691d4
+        sha256: a0833acb3832c18dd53050256da0a93938899e3dac0c6e113889bc41603b119d
       - openra-x64-nuget.json
       - openra-arm64-nuget.json
 
