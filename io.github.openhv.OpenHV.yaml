@@ -1,13 +1,13 @@
 app-id: io.github.openhv.OpenHV
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: openhv
 rename-desktop-file: openhv.desktop
 rename-appdata-file: openhv.metainfo.xml
 rename-icon: openhv
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.dotnet6
+  - org.freedesktop.Sdk.Extension.dotnet10
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
@@ -22,8 +22,8 @@ modules:
   - name: OpenHV
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/dotnet6/bin
-      append-ld-library-path: /usr/lib/sdk/dotnet6/lib
+      append-path: /usr/lib/sdk/dotnet10/bin
+      append-ld-library-path: /usr/lib/sdk/dotnet10/lib
       env:
         - DOTNET_CLI_TELEMETRY_OPTOUT=true
         - DOTNET_NOLOGO=true
@@ -35,32 +35,32 @@ modules:
           env:
             RUNTIME: linux-arm64
     build-commands:
-      - cd engine && dotnet publish --source ./nuget-sources -c Release -p:TargetPlatform=unix-generic -p:CopyGenericLauncher=TRUE -p:CopyCncDll=FALSE -p:CopyD2kDll=FALSE -o ${FLATPAK_DEST}/lib/openhv --runtime $RUNTIME --self-contained true
+      - cd engine && dotnet publish --source ./nuget-sources -c Release -p:TargetPlatform=$RUNTIME -p:CopyGenericLauncher=TRUE -p:CopyCncDll=FALSE -p:CopyD2kDll=FALSE -o ${FLATPAK_DEST}/lib/openhv --runtime $RUNTIME --self-contained true
       - mkdir bin && cd engine && ./configure-system-libraries.sh && mv bin/*.so /app/lib/openhv/
       - dotnet publish --source ./nuget-sources -c Release -o ${FLATPAK_DEST}/lib/openhv --self-contained true
       - make install-executables install-metadata install-data prefix=${FLATPAK_DEST}
     sources:
       - type: git
         url: https://github.com/OpenRA/OpenRA
-        commit: 2030c17a8bf43a922e574cbcac5b8e9cda96c99e
+        tag: playtest-20261026
+        commit: d66f9bb0d0bf6de2d702360f4ec405226ed4b7f0
         dest: engine
       - type: shell
         commands:
-          - cd engine && make version VERSION=2030c17a8bf43a922e574cbcac5b8e9cda96c99e
+          - cd engine && make version VERSION=playtest-20261026
+          - cd engine && sed -i 's|rm "bin/\${REPLACE}"|rm -f "bin/${REPLACE}"|' configure-system-libraries.sh # https://github.com/OpenRA/OpenRA/pull/22713
       - type: file
         url: https://github.com/OpenRA/GeoIP-Database/releases/download/monthly/IP2LOCATION-LITE-DB1.IPV6.BIN.ZIP
         dest: engine
-        sha256: 933fa90c9f2f44a903f92fc8a54c86082a1f1fd2623d1159455ea56a9ba09132
+        sha256: 0f3ee961ad4211ada01294d829598ce71d4bcc75f90d43d6f05606ad18582326
       - openra-x64-nuget.json
       - openra-arm64-nuget.json
 
       - type: git
         url: https://github.com/OpenHV/OpenHV
-        tag: '20250209'
-        commit: 9a84dd2f2d36b470b3a4b9c200dece3fa44f8c50
+        tag: '20261108'
+        commit: f3252de40b09209f1fbc7f16ba7c4136d30dd4b3
       - type: shell
         commands:
           - make version
       - openhv-nuget.json
-
-
